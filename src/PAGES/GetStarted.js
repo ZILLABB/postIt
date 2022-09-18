@@ -5,7 +5,7 @@ import vector from './Images/Vector.svg'
 const GetStarted = ({show}) => { 
    
     return (
-        <div className='bg-[#F0F0F0F0] bg-opacity-[94%] absolute justify-center text-center  pt-[111px] top-0 bottom-0 m-[auto] right-0 left-0 h-screen'>
+        <div className='fixed bg-[#F0F0F0F0] bg-opacity-[94%] justify-center text-center  pt-[111px] top-0 bottom-0 m-[auto] right-0 left-0 h-screen'>
             <div className='bg-[#FDfeff] w-[653px] absolute justify-center text-center h-[772px] pt-[111px] top-0 bottom-0 m-[auto] right-0 left-0 '>
                 <div onClick={() => show(false)} className='cursor-pointer flex justify-end mr-8 mb-16'>
                     <img  src={vector} alt="close" />

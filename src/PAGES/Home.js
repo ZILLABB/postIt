@@ -6,9 +6,7 @@ import rec from "./Images/Rectangle 5.png";
 import rec1 from "./Images/Rectangle 5-1.png";
 import rec2 from "./Images/Rectangle 5-2.png";
 import rec38 from './Images/Rectangle 38.png'
-import twitter from './Images/twitter.png'
-import faceBook from './Images/facebook.png'
-import instagram from './Images/insta.png'
+import Footer from "./Footer";
 import GetStarted from './GetStarted';
 import SignIn from "./SignIn";
 
@@ -85,7 +83,7 @@ const Home = () => {
             <div className="">
                 <img className="relative w-[1179px] h-[250px] m-[auto] mb-[70px]  " src={rec38} alt="wavy" />
             </div>
-            <div className=" absolute top-[1007px] mx-[397px] text-center  ">
+            <div className=" absolute top-[1035px] mx-[397px] text-center  ">
 
                 <h1 className="mb-[22px] m-[auto]  ">
                     Try Postit.
@@ -94,65 +92,14 @@ const Home = () => {
                     Do you want to write or discover stories from writers on any topic?
                 </h5>
                 <div className="flex w-[496px] h-[39px] ">
-                    <input className="w-[496px] rounded-tr-none 
+                    <input className="w-[496px] rounded-tr-none rounded-br-none  rounded-lg px-[18px]
                      " type="text" placeholder="Enter email here" />
 
-                    <Button customClass="text-white w-[156px] h-[39px]  
+                    <Button customClass="text-white w-[156px] px-[13px] h-[39px]  
                     rounded-l-none " title={"Get started"} />
                 </div>
             </div>
-            <footer className=" ">
-                <div className="flex bg-[black] text-white">
-                    <div className="mt-[63px]   " >
-                        <h3 className="mb-[14px] font-bold ">
-                            About Postit.
-                        </h3>
-                        <p className="w-[427px] h-[140px] mr-[95px]">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt id sem vel quis in turpis sit eget pellentesque. Nunc etiicies in rhoncus, rhoncus in arcu. Tincidunt neque fusce vitaenisi aliquet. que maeae tortoere necsem commodo ac.
-                        </p>
-                    </div>
-                    <div className="mt-[63px]">
-                        <h3 className="mr-[102px] mb-[14px] font-bold ">
-                            Quick Menu
-                        </h3>
-                        <ul>
-                            <li>Home</li>
-                            <li>Stories</li>
-                            <li>Trending Stories</li>
-                            <li>Popular Stories</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li className="mr-[117px] mt-[109px] ">Sign Up</li>
-                            <li>Log In</li>
-                            <li>Contact Us</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 className="mb-[28px] mt-[63px] font-bold">Subscribe to our newsletter</h2>
-                        <div className="flex w-[337px]">
-                            <input type="text" className="w-[337px] h-[39px] absolute" placeholder="Email address" />
-                            <Button customClass="absolute text-white bg-[#0086B0] w-[103px] h-[27px] mt-[6px] mx-[226px] rounded-[2px] " title={"Subscribe"} />
-                        </div>
-
-                    </div>
-
-                </div>
-                <div className="bg-black">
-                    <hr />
-                    <div className="flex gap-2 justify-end p-2">
-                        <p className="text-white">Terms and Policy</p>
-                        <img src={twitter} alt="Twitter" />
-                        <img src={faceBook} alt="facebook" />
-                        <img src={instagram} alt="Instagram" />
-                    </div>
-
-                </div>
-
-
-
-            </footer>
+            <Footer/>
             {show && <GetStarted show={setShow} />}
             {sign && <SignIn sign={setSign} />}
 
