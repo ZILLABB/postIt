@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from './Button'
-import vector from './Images/Vector.svg'
+import Button from '../components/Atoms/Button'
+import vector from '../Images/Vector.svg'
 
 const GetStarted = ({show}) => { 
    
