@@ -10,7 +10,7 @@ const FirstPart = () => {
                 <h1 className='text-[62.6721px] mb-[43.87px] '>
                     My Stories
                 </h1>
-                <Button customClass="bg-black text-white w-[197.42px] h-[54.84px] rounded-[7.83401px] mb-5 mt-10 " title={"write stories"} />
+                <Button customClass="!bg-black text-white w-[197.42px] h-[54.84px] rounded-[7.83401px] mb-5 mt-10 " title={"write stories"} />
             </div>
 
             <ul className='lg:flex gap-[47.61px] text-[37.6032px]'>

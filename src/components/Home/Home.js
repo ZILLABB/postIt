@@ -9,8 +9,8 @@ const Home = () => {
       <div>
           <BaseLayout homeHeader={true}>
               <Banner />
-              <Blog />
-              <TryIt/>
+               <Blog />
+              <TryIt/> 
           </BaseLayout>
     </div>
   )

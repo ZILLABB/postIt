@@ -43,7 +43,7 @@ const Footer = () => {
                             <h2 className="mb-7 font-bold">Subscribe to our newsletter</h2>
                             <div className="flex justify-between m-4 lg:m-0 px-2 lg:w-[200px] xl:w-[337px] bg-white relative">
                                 <input type="text" className="lg:w-[250px] xl:w-[337px] h-[39px] rounded-sm xl:px-[13px] lg:absolute" placeholder="Email address" />
-                                <Button customClass="lg:absolute text-white bg-[#0086B0] w-[103px] h-[27px] mt-[3px] lg:ml-[140px] xl:ml-[200px] rounded-[2px] " title={"Subscribe"} />
+                                {/* <Button customClass="lg:absolute text-white bg-[#0086B0]  lg:w-[103px] h-[27px] mt-[3px] lg:ml-[140px]  xl:ml-[200px] rounded-[2px] " title={"Subscribe"} /> */}
                             </div>
 
                         </div>
@@ -59,8 +59,7 @@ const Footer = () => {
                             <img src={faceBook} className="w-5  h-4  " alt="facebook" />
                             <img src={instagram} className="w-5  h-4  " alt="Instagram" />
                             </div>
-                        </div>
-  h-5  
+                        </div>  
                     </div>
 
 

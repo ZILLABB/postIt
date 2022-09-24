@@ -8,7 +8,7 @@ const MyStories = () => {
         <div>
             <BaseLayout accountHeader={true}>
                 <FirstPart />
-                <NextP/>
+                <NextP />
             </BaseLayout>
         </div>
     )

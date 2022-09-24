@@ -3,10 +3,16 @@ import coffee from "../../Images/Rectangle 3.png";
 import Button from "../Atoms/Button";
 
 const Banner = () => {
+
+
+
+
+
+
     return (
         <div>
             <section className="relative ">
-                <img src={coffee} alt="coffeePicture" />
+                <img className=' ' src={coffee} alt="coffeePicture" />
                 <div className="absolute px-2 lg:px-0 pb-2
                 top-2 lg:mt-[220px] lg:mb-[28px] lg:mx-[100px] ">
                     <h1 className="font-bold lg:text-[50px] text-[20px] lg:mb-[28px] mb-2">
